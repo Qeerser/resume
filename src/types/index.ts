@@ -9,7 +9,19 @@ export interface IProfileResp {
 		sourceLink: string;
 		fullVersionLink: string;
 	};
+	objectives: IObjective[];
+	coursework: ICoursework[]; 
 }
+
+export interface IObjective {
+	details: string[];
+}
+
+export interface ICoursework {
+	head: string;
+	details: string;
+}
+
 export interface IIntro {
 	name: string;
 	nickname: string;

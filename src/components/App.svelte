@@ -16,6 +16,8 @@
 		workExperiences = [],
 		educations = [],
 		interests = [],
+		objectives = [],
+		coursework = [],
 		resumeUrl: { sourceLink = '', fullVersionLink = '' } = {}
 	} = profile || {});
 
@@ -51,13 +53,47 @@
 
 	<section>
 		<Hideable>
+		<h2 class="text-2xl print:text-4xl uppercase text-left">Objective</h2>
+			<hr />
+			<ul class="text-left list-disc pl-8">
+				{#each objectives as objective}
+					<Hideable>
+						<li>
+							<span>{objective.details}</span>
+						</li>
+					</Hideable>
+				{/each}
+			</ul>
+		</Hideable>
+	</section>
+	
+
+	<section>
+		<Hideable>
+			<h2 class="text-2xl print:text-4xl uppercase text-left">Related Coursework (May 2025)</h2>
+			<hr />
+			<ul class="text-left list-disc pl-8">
+				{#each coursework as course}
+					<Hideable>
+						<li>
+							<div class="w-80 inline-block font-bold">{course.head}</div>
+							<div>{course.details}</div>
+						</li>
+					</Hideable>
+				{/each}
+			</ul>
+		</Hideable>
+	</section>
+
+	<section>
+		<Hideable>
 			<h2 class="text-2xl print:text-4xl uppercase text-left">Technologies and Languages</h2>
 			<hr />
 			<ul class="text-left list-disc pl-8">
 				{#each technologies as tech}
 					<Hideable>
 						<li>
-							<span class="w-28 inline-block">{tech.section}</span>
+							<span class="w-28 inline-block font-bold">{tech.section}</span>
 							<span>{tech.details}</span>
 						</li>
 					</Hideable>
@@ -83,7 +119,7 @@
 		</Hideable>
 	</section>
 
-	<section>
+	<!-- <section>
 		<Hideable>
 			<h2 class="text-2xl print:text-4xl uppercase text-left">Work Experience</h2>
 			<hr />
@@ -92,7 +128,7 @@
 				<Work {...exp} />
 			{/each}
 		</Hideable>
-	</section>
+	</section> -->
 
 	<section>
 		<Hideable>
