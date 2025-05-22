@@ -139,11 +139,25 @@
 				{#each projects as project}
 					<Hideable hide={project.hide}>
 						<li>
-							<strong>{project.name}</strong>
+							{#if project.url !== ""}
+								<a href={`https://${project.url}`} target="_blank" rel="noreferrer">
+								<strong>{project.name}</strong>
+								</a>
+							{:else}
+								<strong>{project.name}</strong>
+							{/if}
+							- <i>{project.stack}</i>
+							<p>
+								{project.details}
+								<a href="https://{project.github}" target="_blank" rel="noreferrer">
+								<strong>{project.github}</strong>
+								</a>
+							</p>
+							<!-- <strong>{project.name}</strong>
 							- {project.details}
 							<a href="https://{project.url}" target="_blank" rel="noreferrer"
 								><strong>{project.url}</strong></a
-							>
+							> -->
 						</li>
 					</Hideable>
 				{/each}

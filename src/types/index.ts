@@ -35,8 +35,10 @@ export interface IIntro {
 
 export interface IProject {
 	name: string;
+	stack: string;
 	details: string;
 	url: string;
+	github: string;
 	hide: boolean;
 }
 
