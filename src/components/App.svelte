@@ -149,9 +149,12 @@
 							- <i>{project.stack}</i>
 							<p>
 								{project.details}
-								<a href="https://{project.github}" target="_blank" rel="noreferrer">
-								<strong>{project.github}</strong>
-								</a>
+								{#each project.github as github}
+										<a href={`https://${github}`} target="_blank" rel="noreferrer">
+										<strong>{github}</strong>
+										</a>
+										&nbsp;
+								{/each}
 							</p>
 							<!-- <strong>{project.name}</strong>
 							- {project.details}

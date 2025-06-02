@@ -1,6 +1,7 @@
 {
 	"intro": {
 		"name": "Kanpasit Pothebungkarn",
+		"nickname": "Pepper",
 		"jobTitle": "Fullstack Software Engineer",
 		"phone": "",
 		"email": "kanpasit.po@gmail.com",
@@ -33,65 +34,60 @@
 		{
 			"name": "Natural Language Processing Project — May 2025",
 			"stack": "Python, LangChain, LangGraph, React",
-			"details": "Implemented a game as a final project using Java. The project included the knowledge of the uses of OOP and JavaFX",
+			"details": "Developed an AI chatbot web application capable of answering questions and recommending accommodations based on Booking.com data, leveraging RAG on Gemini.",
 			"url": "",
-			"github": "github.com/CUknot/NLP_Project"
+			"github": ["github.com/CUknot/NLP_Project"]
 		},
 		{
 			"name": "Software Engineering Project — April 2025",
 			"stack": "NextJS, TypeScript, Go, Fiber, GORM",
-			"details": "Implemented a game as a final project using Java. The project included the knowledge of the uses of OOP and JavaFX",
+			"details": "Collaborated in a team to develop a room rental web application, focusing on backend development, refactoring folder structures, and managing deployment processes for the team.",
 			"url": "",
-			"github": "github.com/orgs/Jaroonsin"
+			"github": ["github.com/orgs/Jaroonsin"]
 		},	
 		{
 			"name": "Computer Networks Project — April 2025",
 			"stack": "React, TypeScript, Socket.io, ExpressJS, Prisma",
-			"details": "Implmented Chat Application using React and Socket.io, with Express.js as the backend server. The project combines with AI helper for frontend UI and implemented backend by myself.",
+			"details": "Developed a web-based chat application, implementing the frontend using React and TypeScript with AI assistance, and independently building the backend using Express.js and TypeScript with Socket.io for real-time communication.",
 			"url": "",
-			"github": "github.com/Qeerser/Network-backend"
+			"github": ["github.com/Qeerser/Network-backend",
+				"github.com/Qeerser/Network-frontend"]
 		},
 		{
 			"name": "Software Development Practice Final Project — April 2025",
 			"stack": "ExpressJS, javaScript",
 			"details": "Implemented Api for reserveation co-working space using Express.js and JavaScript",
 			"url": "",
-			"github": "github.com/Qeerser/SWDP-Project"
-		},
-		{
-			"name": "Todo List Manager",
-			"stack": "React, TypeScript, TailwindCSS, DaisyUI",
-			"details": "A to-do list app built with React and TypeScript, replicating the same functionality as a Vue.js version",
-			"url": "",
-			"github": "github.com/Qeerser/Todo-React-TS"
+			"github": ["github.com/Qeerser/SWDP-Project"]
 		},
 		{
 			"name": "To-Do List Web App",
-			"stack": "Vue.js, TailwindCSS, DaisyUI, JavaScript",
-			"details": "A to-do list app built with Vue.js to manage user interactions and app state, integrated with MockAPI to simulate a backend for real-time task storage and persistence without the need for a full server setup.",
+			"stack": "Vue.js, React, TailwindCSS, DaisyUI, JavaScript",
+			"details": "to-do list app built with Vue.js version and ReactJS version to manage user interactions and app state, integrated with MockAPI.",
 			"url": "todo-qeerser.vercel.app",
-			"github": "github.com/Qeerser/Vue-todo"
+			"github": ["github.com/Qeerser/Vue-todo" ,
+						"github.com/Qeerser/Todo-React-TS"]
 		},
 		{
 			"name": "User Management Web App",
 			"stack": "HTML, JavaScript, CSS, ExpressJS, PostgreSQL",
 			"details": "Implemented full CRUD operations using Express.js for backend routing and PostgreSQL for data storage and retrieval.",
 			"url": "",
-			"github": "github.com/Qeerser/Vanilla-Web-Reg"
+			"github": ["github.com/Qeerser/Vanilla-Web-Reg"]
 		},
 		{
 			"name": "Programming Methodology Final Project — May 2023",
 			"stack": "Java JavaFX",
 			"details": "Implemented a game as a final project using Java. The project included the knowledge of the uses of OOP and JavaFX",
 			"url": "",
-			"github": "github.com/Qeerser/Progmeth-project"
+			"github": ["github.com/Qeerser/Progmeth-project"]
 		},
 		{
 			"name": "Computer Engineering Essentials Project — April 2023",
 			"stack": "HTML, JavaScript, CSS, ExpressJS, DynamoDB",
-			"details": "Collaborated with a team to develop a fully functional website using HTML, JavaScript, and DynamoDB, demonstrating proficiency in REST APIs, frontend, and backend development.",
+			"details": "Collaborated with a team to develop a fully functional website , demonstrating proficiency in REST APIs.",
 			"url": "",
-			"github": "github.com/khajornritdacha/CEE-Final-Project-G2"
+			"github": ["github.com/khajornritdacha/CEE-Final-Project-G2"]
 		}
 ],
 	"technologies": [
@@ -129,6 +125,6 @@
 	],
 	"resumeUrl": {
 		"sourceLink": "https://github.com/qeerser/resume",
-		"fullVersion": "https://resume-qeerser.vercel.app"
+		"fullVersionLink": "https://resume-qeerser.vercel.app"
 	}
 }
