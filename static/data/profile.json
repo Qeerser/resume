@@ -32,7 +32,7 @@
 		{
 			"name": "Kolla OpenStack Installation Helper — July 2025",
 			"stack": "ReactJS TypeScript",
-			"url": "https://kolla.qeerser.dev",
+			"url": "kolla.qeerser.dev",
 			"details":"Developed a Vite + React web application that serves as a beginner-friendly guide for deploying OpenStack using Kolla Ansible, covering the full process from network setup to post-deployment configuration. Leveraged AI-assisted content generation to create clear instructions and visual aids, simplifying complex deployment steps for first-time users and enhancing accessibility to cloud infrastructure automation.",
 			"githubs": ["github.com/Qeerser/kolla-ansible-deploy"]
 		},
