@@ -38,7 +38,7 @@ export interface IProject {
 	stack: string;
 	details: string;
 	url: string;
-	github: string;
+	githubs: string[];
 	hide: boolean;
 }
 

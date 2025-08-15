@@ -68,7 +68,7 @@
 	</section>
 	
 
-	<section>
+	<!-- <section>
 		<Hideable>
 			<h2 class="text-2xl print:text-4xl uppercase text-left">Related Coursework (May 2025)</h2>
 			<hr />
@@ -83,7 +83,7 @@
 				{/each}
 			</ul>
 		</Hideable>
-	</section>
+	</section> -->
 
 	<section>
 		<Hideable>
@@ -119,7 +119,7 @@
 		</Hideable>
 	</section>
 
-	<!-- <section>
+	<section>
 		<Hideable>
 			<h2 class="text-2xl print:text-4xl uppercase text-left">Work Experience</h2>
 			<hr />
@@ -128,7 +128,7 @@
 				<Work {...exp} />
 			{/each}
 		</Hideable>
-	</section> -->
+	</section>
 
 	<section>
 		<Hideable>
@@ -149,9 +149,13 @@
 							- <i>{project.stack}</i>
 							<p>
 								{project.details}
-								<a href="https://{project.github}" target="_blank" rel="noreferrer">
-								<strong>{project.github}</strong>
-								</a>
+								{#if project.githubs && project.githubs.length > 0}
+									{#each project.githubs as github, i}
+										<a href={`https://${github}`} target="_blank" rel="noreferrer">
+											<strong>{github}</strong>
+										</a>
+									{/each}
+								{/if}
 							</p>
 							<!-- <strong>{project.name}</strong>
 							- {project.details}

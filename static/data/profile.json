@@ -1,13 +1,13 @@
 {
 	"intro": {
 		"name": "Kanpasit Pothebungkarn",
-		"jobTitle": "Fullstack Software Engineer",
+		"nickname": "Pepper",
 		"phone": "",
 		"email": "kanpasit.po@gmail.com",
 		"github": "Qeerser",
 		"linkedin": "kanpasit-pothebungkarn",
 		"location": "Bangkok, Thailand",
-		"website": "qeerser.vercel.app"
+		"website": "qeerser.dev"
 	},
 	"objectives": [
 		{
@@ -29,94 +29,106 @@
 		}
 	],
 	"projects": [
-	
+		{
+			"name": "Kolla OpenStack Installation Helper — July 2025",
+			"stack": "ReactJS TypeScript",
+			"details":"Developed a Vite + React web application that serves as a beginner-friendly guide for deploying OpenStack using Kolla Ansible, covering the full process from network setup to post-deployment configuration. Leveraged AI-assisted content generation to create clear instructions and visual aids, simplifying complex deployment steps for first-time users and enhancing accessibility to cloud infrastructure automation.",
+			"githubs": ["github.com/Qeerser/kolla-ansible-deploy"]
+		},
 		{
 			"name": "Natural Language Processing Project — May 2025",
 			"stack": "Python, LangChain, LangGraph, React",
-			"details": "Implemented a game as a final project using Java. The project included the knowledge of the uses of OOP and JavaFX",
+			"details": "Developed an AI chatbot web application capable of answering questions and recommending accommodations based on Booking.com data, leveraging RAG on Gemini.",
 			"url": "",
-			"github": "github.com/CUknot/NLP_Project"
+			"githubs": ["github.com/CUknot/NLP_Project"]
 		},
 		{
 			"name": "Software Engineering Project — April 2025",
 			"stack": "NextJS, TypeScript, Go, Fiber, GORM",
-			"details": "Implemented a game as a final project using Java. The project included the knowledge of the uses of OOP and JavaFX",
+			"details":"Collaborated in a team to develop a room rental web application, focusing on backend development, refactoring folder structures, and managing deployment processes for the team.",
 			"url": "",
-			"github": "github.com/orgs/Jaroonsin"
-		},	
+			"githubs": ["github.com/orgs/Jaroonsin"]
+		},
 		{
 			"name": "Computer Networks Project — April 2025",
 			"stack": "React, TypeScript, Socket.io, ExpressJS, Prisma",
-			"details": "Implmented Chat Application using React and Socket.io, with Express.js as the backend server. The project combines with AI helper for frontend UI and implemented backend by myself.",
+			"details":"Developed a web-based chat application, implementing the frontend using React and TypeScript with AI assistance, and independently building the backend using Express.js and TypeScript with Socket.io for real-time communication.",
 			"url": "",
-			"github": "github.com/Qeerser/Network-backend"
+			"githubs": ["github.com/Qeerser/Network-backend", "github.com/Qeerser/Network-frontend"]
 		},
 		{
 			"name": "Software Development Practice Final Project — April 2025",
 			"stack": "ExpressJS, javaScript",
 			"details": "Implemented Api for reserveation co-working space using Express.js and JavaScript",
 			"url": "",
-			"github": "github.com/Qeerser/SWDP-Project"
-		},
-		{
-			"name": "Todo List Manager",
-			"stack": "React, TypeScript, TailwindCSS, DaisyUI",
-			"details": "A to-do list app built with React and TypeScript, replicating the same functionality as a Vue.js version",
-			"url": "",
-			"github": "github.com/Qeerser/Todo-React-TS"
+			"githubs": ["github.com/Qeerser/SWDP-Project"]
 		},
 		{
 			"name": "To-Do List Web App",
-			"stack": "Vue.js, TailwindCSS, DaisyUI, JavaScript",
-			"details": "A to-do list app built with Vue.js to manage user interactions and app state, integrated with MockAPI to simulate a backend for real-time task storage and persistence without the need for a full server setup.",
-			"url": "todo-qeerser.vercel.app",
-			"github": "github.com/Qeerser/Vue-todo"
+			"stack": "VueJS, ReactJS, TailwindCSS, DaisyUI, JavaScript",
+			"details": "to-do list app built with Vue.js version and ReactJS version to manage user interactions and app state, integrated with MockAPI.",
+			"url": "",
+			"githubs": ["github.com/Qeerser/Vue-todo","github.com/Qeerser/Todo-React-TS"]
 		},
 		{
 			"name": "User Management Web App",
 			"stack": "HTML, JavaScript, CSS, ExpressJS, PostgreSQL",
 			"details": "Implemented full CRUD operations using Express.js for backend routing and PostgreSQL for data storage and retrieval.",
 			"url": "",
-			"github": "github.com/Qeerser/Vanilla-Web-Reg"
+			"githubs": ["github.com/Qeerser/Vanilla-Web-Reg"]
 		},
 		{
 			"name": "Programming Methodology Final Project — May 2023",
 			"stack": "Java JavaFX",
 			"details": "Implemented a game as a final project using Java. The project included the knowledge of the uses of OOP and JavaFX",
 			"url": "",
-			"github": "github.com/Qeerser/Progmeth-project"
+			"githubs": ["github.com/Qeerser/Progmeth-project"]
 		},
 		{
 			"name": "Computer Engineering Essentials Project — April 2023",
 			"stack": "HTML, JavaScript, CSS, ExpressJS, DynamoDB",
 			"details": "Collaborated with a team to develop a fully functional website using HTML, JavaScript, and DynamoDB, demonstrating proficiency in REST APIs, frontend, and backend development.",
 			"url": "",
-			"github": "github.com/khajornritdacha/CEE-Final-Project-G2"
+			"githubs": ["github.com/khajornritdacha/CEE-Final-Project-G2"]
 		}
 ],
 	"technologies": [
 		{
 			"section": "Languages:",
-			"details": "C++, Python, JavaScript, TypeScript, SQL, Go, Java, Node.js, Scala"
+			"details": "C++, Python, TypeScript, Go, Rust, Java, Scala"
 		},
 		{
 			"section": "Frameworks:",
-			"details": "ReactJS, NextJS, NestJS, TailwindCSS, DaisyUI, Fiber, GORM, Prisma, ExpressJS"
+			"details": "NextJS,  TailwindCSS, DaisyUI, Fiber, Prisma"
 		},
 		{
 			"section": "Tools:",
-			"details": "Git, Terraform, Docker, Playwright, Zsh, VSCode"
+			"details": "Git, Docker, Debian, Zsh, VSCode"
 		},
 		{
 			"section": "Databases:",
 			"details": "PostgreSQL, MySQL, MongoDB, DynamoDB"
 		},
 		{
-			"section": "Other:",
-			"details": "AWS, Firebase, Vercel, Github Actions, CloudFlare"
+			"section": "Infrastructure:",
+			"details": "AWS, Vercel, Github Actions, CloudFlare, Terraform, Ansible, Openstack"
 		}
 	],
-	"workExperiences": [],
+	"workExperiences": [	
+		{
+			"position": "Internship – Cloud Backend Engineer",
+			"company": "Deverhood HT",
+			"url": "https://www.deverhood.com/",
+			"years": ["June 2025", "August 2025"],
+"details": [
+	"Designed and implemented a private cloud prototype using OpenStack on self-hosted physical servers and virtual machines.",
+	"Deployed and tested the environment using Kolla Ansible for automation and orchestration.",
+	"Developed a beginner-friendly web guide for Kolla Ansible deployment, with AI-assisted content generation.",
+	"Focused on Linux system administration, Ansible automation, and OpenStack operations.",
+	"Gained hands-on experience in installing, configuring, and managing OpenStack services in a lab environment."
+]
+		}
+	],
 	"educations": [
 		{
 			"head": "B.Eng. Computer Engineering",
@@ -129,6 +141,6 @@
 	],
 	"resumeUrl": {
 		"sourceLink": "https://github.com/qeerser/resume",
-		"fullVersion": "https://resume-qeerser.vercel.app"
+		"fullVersion": "https://resume.qeerser.dev"
 	}
 }
