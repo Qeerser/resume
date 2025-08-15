@@ -36,5 +36,8 @@
 		"vite": "^4.5.14",
 		"vitest": "^0.32.4"
 	},
-	"type": "module"
+	"type": "module",
+	"engines": {
+		"node": "18.x"
+	}
 }
